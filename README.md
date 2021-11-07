@@ -5,7 +5,7 @@ This project analyzes the complex relationship between Twitter data and the fina
 Here are some graphs from the companies sentimental scores and stock closing prices:
 
 ![](google_sentimenal_scores_and_stock_prices_results.png)
-![](apple_and_microsoft_sentimental scores_and_stock_prices_results.png)
+![](apple_and_microsoft_sentimental%20scores_and_stock_prices_results.png)
 
 Our approach shows good correlation values between the features 0.553 for stock prices of the three companies and their sentimental scores and here are the results:
 ![]()
