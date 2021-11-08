@@ -17,4 +17,5 @@ Our approach showed good correlation values between the features 0.553 for stock
 Also created a word cloud:
 <br>
 <img src="project_results/word_cloud.png" width="500">
+<img src="project_results/word_cloud2.png" width="500">
 
