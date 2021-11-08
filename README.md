@@ -7,8 +7,8 @@ We also used machine learning algorithms (naive Bayes, random forest, and suppor
 
 
 Here are some graphs from the companies sentimental scores and stock closing prices:
-<img src="project_results/google_sentimenal_scores_and_stock_prices_results.png" width="500">
-<img src="project_results/apple_and_microsoft_sentimental%20scores_and_stock_prices_results.png" width="500">
+<img src="project_results/google_sentimenal_scores_and_stock_prices_results.png" width="450">
+<img src="project_results/apple_and_microsoft_sentimental%20scores_and_stock_prices_results.png" width="450">
 
 Our approach showed good correlation values between the features 0.553 for stock prices of the three companies and their sentimental scores and here are the results:
 <br>
