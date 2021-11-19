@@ -244,10 +244,20 @@ fcastapple = forecast(apple.auto_arima, h=term)
 fcastgoog = forecast(google.auto_arima, h=term)
 fcastmsft = forecast(msft.auto_arima, h=term)
 
+## percentage change forecast accuracy
+forecast::accuracy(fcastapple)
+forecast::accuracy(fcastgoog)
+forecast::accuracy(fcastmsft)
+
 ### forecast closing price
 fcastapple.cls = forecast(apple.auto_arima.cls, h=term)
 fcastgoog.cls = forecast(google.auto_arima.cls, h=term)
 fcastmsft.cls = forecast(msft.auto_arima.cls, h=term)
+
+## closing price forecast accuracy
+forecast::accuracy(fcastapple.cls)
+forecast::accuracy(fcastgoog.cls)
+forecast::accuracy(fcastmsft.cls)
 
 #### calculate negative and positive sentiment overal scores for each day
 new.applrev_neg_pos.revsent = applneg_pos.revsent %>%
